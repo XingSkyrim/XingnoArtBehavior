@@ -6,7 +6,7 @@
 		<hkobject name="#0106" class="hkbBehaviorGraphStringData" signature="0xc713064e">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="eventNames" numelements="1268">
+			<hkparam name="eventNames" numelements="1231">
 				<hkcstring>FootLeft</hkcstring>
 				<hkcstring>FootRight</hkcstring>
 				<hkcstring>WeapEquip</hkcstring>
@@ -1228,11 +1228,6 @@
 				<hkcstring>FocusXingOut</hkcstring>
 				<hkcstring>XingFocusType2In</hkcstring>
 				<hkcstring>XingFocusType3In</hkcstring>
-				<hkcstring>XingExpAngry</hkcstring>
-				<hkcstring>XingExpSad</hkcstring>
-				<hkcstring>XingExpHappy</hkcstring>
-				<hkcstring>XingExpBlinkR</hkcstring>
-				<hkcstring>XingExpBlinkL</hkcstring>
 				<hkcstring>XingExpReset</hkcstring>
 				<hkcstring>InMTIdle</hkcstring>
 				<hkcstring>IncreaseIdleScore</hkcstring>
@@ -1241,40 +1236,8 @@
 				<hkcstring>BackToMTIdle</hkcstring>
 				<hkcstring>XingIdleOut</hkcstring>
 				<hkcstring>GotoXingIdle</hkcstring>
-				<hkcstring>XingExpFear</hkcstring>
-				<hkcstring>XingExpSurprise</hkcstring>
-				<hkcstring>XingExpPuzzled</hkcstring>
-				<hkcstring>XingExpDisgust</hkcstring>
-				<hkcstring>XingExpNeutral</hkcstring>
-				<hkcstring>XingExpSpe3</hkcstring>
-				<hkcstring>XingExpSpe1</hkcstring>
-				<hkcstring>XingExpSpe2</hkcstring>
-				<hkcstring>XingExpAah</hkcstring>
-				<hkcstring>XingExpBigAah</hkcstring>
-				<hkcstring>XingExpBmp</hkcstring>
-				<hkcstring>XingExpChjsh</hkcstring>
-				<hkcstring>XingExpDst</hkcstring>
-				<hkcstring>XingExpEee</hkcstring>
-				<hkcstring>XingExpEh</hkcstring>
-				<hkcstring>XingExpFv</hkcstring>
-				<hkcstring>XingExpI</hkcstring>
-				<hkcstring>XingExpK</hkcstring>
-				<hkcstring>XingExpN</hkcstring>
-				<hkcstring>XingExpOh</hkcstring>
-				<hkcstring>XingExpOohq</hkcstring>
-				<hkcstring>XingExpR</hkcstring>
-				<hkcstring>XingExpTh</hkcstring>
-				<hkcstring>XingExpW</hkcstring>
-				<hkcstring>XingExpBrowDownL</hkcstring>
-				<hkcstring>XingExpBrowDownR</hkcstring>
-				<hkcstring>XingExpBrowUpL</hkcstring>
-				<hkcstring>XingExpBrowUpR</hkcstring>
-				<hkcstring>XingExpLookDown</hkcstring>
-				<hkcstring>XingExpLookLeft</hkcstring>
-				<hkcstring>XingExpLookRight</hkcstring>
-				<hkcstring>XingExpLookUp</hkcstring>
-				<hkcstring>XingExpSquintL</hkcstring>
-				<hkcstring>XingExpSquintR</hkcstring>
+				<hkcstring>XingInCombat</hkcstring>
+				<hkcstring>XingOutCombat</hkcstring>
 			</hkparam>
 			<hkparam name="attributeNames" numelements="0"></hkparam>
 			<hkparam name="variableNames" numelements="233">
@@ -4484,7 +4447,7 @@
 					<hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
 				</hkobject>
 			</hkparam>
-			<hkparam name="eventInfos" numelements="1268">
+			<hkparam name="eventInfos" numelements="1231">
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
 				</hkobject>
@@ -6221,117 +6184,6 @@
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">0</hkparam>
@@ -73143,8 +72995,8 @@
 			<hkparam name="enable">true</hkparam>
 			<!-- padModifier SERIALIZE_IGNORED -->
 			<hkparam name="modifier">#3167</hkparam>
-			<hkparam name="activateEventId">1227</hkparam>
-			<hkparam name="deactivateEventId">1228</hkparam>
+			<hkparam name="activateEventId">1222</hkparam>
+			<hkparam name="deactivateEventId">1223</hkparam>
 			<hkparam name="activeByDefault">false</hkparam>
 			<!-- isActive SERIALIZE_IGNORED -->
 		</hkobject>
@@ -73204,8 +73056,8 @@
 			<hkparam name="enable">true</hkparam>
 			<!-- padModifier SERIALIZE_IGNORED -->
 			<hkparam name="modifier">#3162</hkparam>
-			<hkparam name="activateEventId">1229</hkparam>
-			<hkparam name="deactivateEventId">1230</hkparam>
+			<hkparam name="activateEventId">1224</hkparam>
+			<hkparam name="deactivateEventId">1225</hkparam>
 			<hkparam name="activeByDefault">false</hkparam>
 			<!-- isActive SERIALIZE_IGNORED -->
 		</hkobject>

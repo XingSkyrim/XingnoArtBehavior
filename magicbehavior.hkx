@@ -6,7 +6,7 @@
 		<hkobject name="#0077" class="hkbBehaviorGraphStringData" signature="0xc713064e">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="eventNames" numelements="141">
+			<hkparam name="eventNames" numelements="102">
 				<hkcstring>staggerStop</hkcstring>
 				<hkcstring>MRh_Equipped_Event</hkcstring>
 				<hkcstring>shoutStop</hkcstring>
@@ -104,50 +104,11 @@
 				<hkcstring>arrowDetach</hkcstring>
 				<hkcstring>attackStop</hkcstring>
 				<hkcstring>SneakSprintStartRoll</hkcstring>
-				<hkcstring>XingExpAngry</hkcstring>
-				<hkcstring>XingExpSad</hkcstring>
-				<hkcstring>XingExpHappy</hkcstring>
-				<hkcstring>XingExpBlinkR</hkcstring>
-				<hkcstring>XingExpBlinkL</hkcstring>
 				<hkcstring>XingExpReset</hkcstring>
 				<hkcstring>XingFocusType1In</hkcstring>
 				<hkcstring>FocusXingOut</hkcstring>
 				<hkcstring>XingFocusType2In</hkcstring>
 				<hkcstring>XingFocusType3In</hkcstring>
-				<hkcstring>XingExpFear</hkcstring>
-				<hkcstring>XingExpSurprise</hkcstring>
-				<hkcstring>XingExpPuzzled</hkcstring>
-				<hkcstring>XingExpDisgust</hkcstring>
-				<hkcstring>XingExpNeutral</hkcstring>
-				<hkcstring>XingExpSpe3</hkcstring>
-				<hkcstring>XingExpSpe1</hkcstring>
-				<hkcstring>XingExpSpe2</hkcstring>
-				<hkcstring>XingExpAah</hkcstring>
-				<hkcstring>XingExpBigAah</hkcstring>
-				<hkcstring>XingExpBmp</hkcstring>
-				<hkcstring>XingExpChjsh</hkcstring>
-				<hkcstring>XingExpDst</hkcstring>
-				<hkcstring>XingExpEee</hkcstring>
-				<hkcstring>XingExpEh</hkcstring>
-				<hkcstring>XingExpFv</hkcstring>
-				<hkcstring>XingExpI</hkcstring>
-				<hkcstring>XingExpK</hkcstring>
-				<hkcstring>XingExpN</hkcstring>
-				<hkcstring>XingExpOh</hkcstring>
-				<hkcstring>XingExpOohq</hkcstring>
-				<hkcstring>XingExpR</hkcstring>
-				<hkcstring>XingExpTh</hkcstring>
-				<hkcstring>XingExpW</hkcstring>
-				<hkcstring>XingExpBrowDownL</hkcstring>
-				<hkcstring>XingExpBrowDownR</hkcstring>
-				<hkcstring>XingExpBrowUpL</hkcstring>
-				<hkcstring>XingExpBrowUpR</hkcstring>
-				<hkcstring>XingExpLookDown</hkcstring>
-				<hkcstring>XingExpLookLeft</hkcstring>
-				<hkcstring>XingExpLookRight</hkcstring>
-				<hkcstring>XingExpLookUp</hkcstring>
-				<hkcstring>XingExpSquintL</hkcstring>
-				<hkcstring>XingExpSquintR</hkcstring>
 			</hkparam>
 			<hkparam name="attributeNames" numelements="0"></hkparam>
 			<hkparam name="variableNames" numelements="81">
@@ -1296,7 +1257,7 @@
 					<hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
 				</hkobject>
 			</hkparam>
-			<hkparam name="eventInfos" numelements="141">
+			<hkparam name="eventInfos" numelements="102">
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
 				</hkobject>
@@ -1503,123 +1464,6 @@
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">0</hkparam>
@@ -32081,6 +31925,17 @@
 			</hkparam>
 		</hkobject>
 
+		<hkobject name="#8001" class="hkbStateMachineEventPropertyArray" signature="0xb07b4388">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="events" numelements="1">
+				<hkobject>
+					<hkparam name="id">97</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
+		
 		<hkobject name="#1252" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
@@ -32089,7 +31944,7 @@
 			<!-- areBindablesCached SERIALIZE_IGNORED -->
 			<hkparam name="listeners" numelements="0"></hkparam>
 			<hkparam name="enterNotifyEvents">null</hkparam>
-			<hkparam name="exitNotifyEvents">null</hkparam>
+			<hkparam name="exitNotifyEvents">#8001</hkparam>
 			<hkparam name="transitions">#1251</hkparam>
 			<hkparam name="generator">#0727</hkparam>
 			<hkparam name="name">MagicReady_Standing</hkparam>
@@ -34053,6 +33908,17 @@
 				</hkobject>
 			</hkparam>
 		</hkobject>
+		
+		<hkobject name="#9104" class="hkbStateMachineEventPropertyArray" signature="0xb07b4388">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="events" numelements="1">
+				<hkobject>
+					<hkparam name="id">99</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
 
 		<hkobject name="#1334" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
@@ -34061,7 +33927,7 @@
 			<!-- cachedBindables SERIALIZE_IGNORED -->
 			<!-- areBindablesCached SERIALIZE_IGNORED -->
 			<hkparam name="listeners" numelements="0"></hkparam>
-			<hkparam name="enterNotifyEvents">null</hkparam>
+			<hkparam name="enterNotifyEvents">#9104</hkparam>
 			<hkparam name="exitNotifyEvents">null</hkparam>
 			<hkparam name="transitions">#1333</hkparam>
 			<hkparam name="generator">#1332</hkparam>

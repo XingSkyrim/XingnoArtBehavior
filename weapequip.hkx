@@ -6,7 +6,7 @@
 		<hkobject name="#0057" class="hkbBehaviorGraphStringData" signature="0xc713064e">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="eventNames" numelements="86">
+			<hkparam name="eventNames" numelements="48">
 				<hkcstring>staggerStop</hkcstring>
 				<hkcstring>syncPoint</hkcstring>
 				<hkcstring>WeapEquip_OutMoving</hkcstring>
@@ -49,50 +49,12 @@
 				<hkcstring>AnimObjDraw</hkcstring>
 				<hkcstring>AnimObjectUnequip</hkcstring>
 				<hkcstring>AnimObjectStop</hkcstring>
-				<hkcstring>XingExpAngry</hkcstring>
-				<hkcstring>XingExpSad</hkcstring>
-				<hkcstring>XingExpHappy</hkcstring>
-				<hkcstring>XingExpBlinkR</hkcstring>
-				<hkcstring>XingExpBlinkL</hkcstring>
 				<hkcstring>XingExpReset</hkcstring>
 				<hkcstring>XingFocusType1In</hkcstring>
 				<hkcstring>FocusXingOut</hkcstring>
 				<hkcstring>XingFocusType2In</hkcstring>
 				<hkcstring>XingFocusType3In</hkcstring>
-				<hkcstring>XingExpFear</hkcstring>
-				<hkcstring>XingExpSurprise</hkcstring>
-				<hkcstring>XingExpPuzzled</hkcstring>
-				<hkcstring>XingExpDisgust</hkcstring>
-				<hkcstring>XingExpNeutral</hkcstring>
-				<hkcstring>XingExpSpe3</hkcstring>
-				<hkcstring>XingExpSpe1</hkcstring>
-				<hkcstring>XingExpSpe2</hkcstring>
-				<hkcstring>XingExpAah</hkcstring>
-				<hkcstring>XingExpBigAah</hkcstring>
-				<hkcstring>XingExpBmp</hkcstring>
-				<hkcstring>XingExpChjsh</hkcstring>
-				<hkcstring>XingExpDst</hkcstring>
-				<hkcstring>XingExpEee</hkcstring>
-				<hkcstring>XingExpEh</hkcstring>
-				<hkcstring>XingExpFv</hkcstring>
-				<hkcstring>XingExpI</hkcstring>
-				<hkcstring>XingExpK</hkcstring>
-				<hkcstring>XingExpN</hkcstring>
-				<hkcstring>XingExpOh</hkcstring>
-				<hkcstring>XingExpOohq</hkcstring>
-				<hkcstring>XingExpR</hkcstring>
-				<hkcstring>XingExpTh</hkcstring>
-				<hkcstring>XingExpW</hkcstring>
-				<hkcstring>XingExpBrowDownL</hkcstring>
-				<hkcstring>XingExpBrowDownR</hkcstring>
-				<hkcstring>XingExpBrowUpL</hkcstring>
-				<hkcstring>XingExpBrowUpR</hkcstring>
-				<hkcstring>XingExpLookDown</hkcstring>
-				<hkcstring>XingExpLookLeft</hkcstring>
-				<hkcstring>XingExpLookRight</hkcstring>
-				<hkcstring>XingExpLookUp</hkcstring>
-				<hkcstring>XingExpSquintL</hkcstring>
-				<hkcstring>XingExpSquintR</hkcstring>
+				<hkcstring>DoneRaidenEquip</hkcstring>
 			</hkparam>
 			<hkparam name="attributeNames" numelements="0"></hkparam>
 			<hkparam name="variableNames" numelements="16">
@@ -356,7 +318,7 @@
 					<hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
 				</hkobject>
 			</hkparam>
-			<hkparam name="eventInfos" numelements="86">
+			<hkparam name="eventInfos" numelements="48">
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
 				</hkobject>
@@ -392,120 +354,6 @@
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">0</hkparam>
