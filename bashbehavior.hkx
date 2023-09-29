@@ -6,7 +6,7 @@
 		<hkobject name="#0056" class="hkbBehaviorGraphStringData" signature="0xc713064e">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="eventNames" numelements="34">
+			<hkparam name="eventNames" numelements="52">
 				<hkcstring>bashPowerStart</hkcstring>
 				<hkcstring>bashExit</hkcstring>
 				<hkcstring>bashRelease</hkcstring>
@@ -41,6 +41,24 @@
 				<hkcstring>AnimObjDraw</hkcstring>
 				<hkcstring>AnimObjectUnequip</hkcstring>
 				<hkcstring>AnimObjectStop</hkcstring>
+				<hkcstring>XingExpAngry</hkcstring>
+				<hkcstring>XingExpSad</hkcstring>
+				<hkcstring>XingExpHappy</hkcstring>
+				<hkcstring>XingExpBlinkR</hkcstring>
+				<hkcstring>XingExpBlinkL</hkcstring>
+				<hkcstring>XingExpReset</hkcstring>
+				<hkcstring>XingFocusType1In</hkcstring>
+				<hkcstring>FocusXingOut</hkcstring>
+				<hkcstring>XingFocusType2In</hkcstring>
+				<hkcstring>XingFocusType3In</hkcstring>
+				<hkcstring>XingExpFear</hkcstring>
+				<hkcstring>XingExpSurprise</hkcstring>
+				<hkcstring>XingExpPuzzled</hkcstring>
+				<hkcstring>XingExpDisgust</hkcstring>
+				<hkcstring>XingExpNeutral</hkcstring>
+				<hkcstring>XingExpSpe3</hkcstring>
+				<hkcstring>XingExpSpe1</hkcstring>
+				<hkcstring>XingExpSpe2</hkcstring>
 			</hkparam>
 			<hkparam name="attributeNames" numelements="0"></hkparam>
 			<hkparam name="variableNames" numelements="6">
@@ -142,7 +160,7 @@
 				</hkobject>
 			</hkparam>
 			<hkparam name="characterPropertyInfos" numelements="0"></hkparam>
-			<hkparam name="eventInfos" numelements="34">
+			<hkparam name="eventInfos" numelements="52">
 				<hkobject>
 					<hkparam name="flags">0</hkparam>
 				</hkobject>
@@ -157,6 +175,60 @@
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">0</hkparam>
