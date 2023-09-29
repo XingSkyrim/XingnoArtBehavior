@@ -6,7 +6,7 @@
 		<hkobject name="#0077" class="hkbBehaviorGraphStringData" signature="0xc713064e">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="eventNames" numelements="115">
+			<hkparam name="eventNames" numelements="141">
 				<hkcstring>staggerStop</hkcstring>
 				<hkcstring>MRh_Equipped_Event</hkcstring>
 				<hkcstring>shoutStop</hkcstring>
@@ -122,6 +122,32 @@
 				<hkcstring>XingExpSpe3</hkcstring>
 				<hkcstring>XingExpSpe1</hkcstring>
 				<hkcstring>XingExpSpe2</hkcstring>
+				<hkcstring>XingExpAah</hkcstring>
+				<hkcstring>XingExpBigAah</hkcstring>
+				<hkcstring>XingExpBmp</hkcstring>
+				<hkcstring>XingExpChjsh</hkcstring>
+				<hkcstring>XingExpDst</hkcstring>
+				<hkcstring>XingExpEee</hkcstring>
+				<hkcstring>XingExpEh</hkcstring>
+				<hkcstring>XingExpFv</hkcstring>
+				<hkcstring>XingExpI</hkcstring>
+				<hkcstring>XingExpK</hkcstring>
+				<hkcstring>XingExpN</hkcstring>
+				<hkcstring>XingExpOh</hkcstring>
+				<hkcstring>XingExpOohq</hkcstring>
+				<hkcstring>XingExpR</hkcstring>
+				<hkcstring>XingExpTh</hkcstring>
+				<hkcstring>XingExpW</hkcstring>
+				<hkcstring>XingExpBrowDownL</hkcstring>
+				<hkcstring>XingExpBrowDownR</hkcstring>
+				<hkcstring>XingExpBrowUpL</hkcstring>
+				<hkcstring>XingExpBrowUpR</hkcstring>
+				<hkcstring>XingExpLookDown</hkcstring>
+				<hkcstring>XingExpLookLeft</hkcstring>
+				<hkcstring>XingExpLookRight</hkcstring>
+				<hkcstring>XingExpLookUp</hkcstring>
+				<hkcstring>XingExpSquintL</hkcstring>
+				<hkcstring>XingExpSquintR</hkcstring>
 			</hkparam>
 			<hkparam name="attributeNames" numelements="0"></hkparam>
 			<hkparam name="variableNames" numelements="81">
@@ -1270,7 +1296,7 @@
 					<hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
 				</hkobject>
 			</hkparam>
-			<hkparam name="eventInfos" numelements="115">
+			<hkparam name="eventInfos" numelements="141">
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
 				</hkobject>
@@ -1477,6 +1503,84 @@
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="flags">0</hkparam>
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">0</hkparam>
