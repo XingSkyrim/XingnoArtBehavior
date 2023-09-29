@@ -6,7 +6,7 @@
 		<hkobject name="#0106" class="hkbBehaviorGraphStringData" signature="0xc713064e">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="eventNames" numelements="1220">
+			<hkparam name="eventNames" numelements="1219">
 				<hkcstring>FootLeft</hkcstring>
 				<hkcstring>FootRight</hkcstring>
 				<hkcstring>WeapEquip</hkcstring>
@@ -1224,12 +1224,11 @@
 				<hkcstring>NPCSoundPlay.NPCKillDLC2HeartStone</hkcstring>
 				<hkcstring>NPCKillDLC2HeartStone</hkcstring>
 				<hkcstring>SoundPlay.NPCKillDLC2HeartStone</hkcstring>
-				<hkcstring>Xing</hkcstring>
-				<hkcstring>IframeStart</hkcstring>
-				<hkcstring>IframeEnd</hkcstring>
+				<hkcstring>FocusXingIn</hkcstring>
+				<hkcstring>FocusXingOut</hkcstring>
 			</hkparam>
 			<hkparam name="attributeNames" numelements="0"></hkparam>
-			<hkparam name="variableNames" numelements="232">
+			<hkparam name="variableNames" numelements="231">
 				<hkcstring>Speed</hkcstring>
 				<hkcstring>Direction</hkcstring>
 				<hkcstring>TurnDelta</hkcstring>
@@ -1460,8 +1459,7 @@
 				<hkcstring>AimGainOnMounted</hkcstring>
 				<hkcstring>AimGainOnDragonMount</hkcstring>
 				<hkcstring>iWantMountedWeaponAnims</hkcstring>
-				<hkcstring>bIframeActive</hkcstring>
-				<hkcstring>bInIframe</hkcstring>
+				<hkcstring>bXingAnim</hkcstring>
 			</hkparam>
 			<hkparam name="characterPropertyNames" numelements="15">
 				<hkcstring>ShieldOnly</hkcstring>
@@ -1485,7 +1483,7 @@
 		<hkobject name="#0107" class="hkbVariableValueSet" signature="0x27812d8d">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="wordVariableValues" numelements="232">
+			<hkparam name="wordVariableValues" numelements="231">
 				<hkobject>
 					<hkparam name="value">0</hkparam>
 				</hkobject>
@@ -2179,9 +2177,6 @@
 				<hkobject>
 					<hkparam name="value">0</hkparam>
 				</hkobject>
-				<hkobject>
-					<hkparam name="value">0</hkparam>
-				</hkobject>
 			</hkparam>
 			<hkparam name="quadVariableValues" numelements="4">
 				(0.000000 0.000000 0.000000 0.000000)
@@ -2196,7 +2191,7 @@
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
 			<hkparam name="attributeDefaults" numelements="0"></hkparam>
-			<hkparam name="variableInfos" numelements="230">
+			<hkparam name="variableInfos" numelements="231">
 				<hkobject>
 					<hkparam name="role">
 						<hkobject>
@@ -4276,15 +4271,6 @@
 					</hkparam>
 					<hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
 				</hkobject>
-				<hkobject>
-					<hkparam name="role">
-						<hkobject>
-							<hkparam name="role">ROLE_DEFAULT</hkparam>
-							<hkparam name="flags">0</hkparam>
-						</hkobject>
-					</hkparam>
-					<hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
-				</hkobject>
 			</hkparam>
 			<hkparam name="characterPropertyInfos" numelements="15">
 				<hkobject>
@@ -4423,7 +4409,7 @@
 					<hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
 				</hkobject>
 			</hkparam>
-			<hkparam name="eventInfos" numelements="1220">
+			<hkparam name="eventInfos" numelements="1219">
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
 				</hkobject>
@@ -6160,9 +6146,6 @@
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">FLAG_SYNC_POINT</hkparam>
-				</hkobject>
-				<hkobject>
-					<hkparam name="flags">0</hkparam>
 				</hkobject>
 				<hkobject>
 					<hkparam name="flags">0</hkparam>
@@ -72835,117 +72818,137 @@
 			<hkparam name="enable">true</hkparam>
 			<!-- padModifier SERIALIZE_IGNORED -->
 			<hkparam name="modifiers" numelements="8">
-				#2516 #2514 #0208 #0206 #2512 #2510 #8001 #8002
+				#2516 #2514 #0208 #0206 #2512 #2510 #9214 #7981
 			</hkparam>
 		</hkobject>
 
-	
-		<hkobject name="#8001" class="hkbEventDrivenModifier" signature="0x7ed3f44e">
+		<hkobject name="#9214" class="hkbEvaluateExpressionModifier" signature="0xf900f6be">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="variableBindingSet">null</hkparam>
+			<!-- cachedBindables SERIALIZE_IGNORED -->
+			<!-- areBindablesCached SERIALIZE_IGNORED -->
+			<hkparam name="userData">2</hkparam>
+			<hkparam name="name">XingArtFocusAnim_EEM</hkparam>
+			<!-- id SERIALIZE_IGNORED -->
+			<!-- cloneState SERIALIZE_IGNORED -->
+			<!-- padNode SERIALIZE_IGNORED -->
+			<hkparam name="enable">true</hkparam>
+			<!-- padModifier SERIALIZE_IGNORED -->
+			<hkparam name="expressions">#9215</hkparam>
+			<!-- compiledExpressionSet SERIALIZE_IGNORED -->
+			<!-- internalExpressionsData SERIALIZE_IGNORED -->
+		</hkobject>
+				
+		<hkobject name="#9215" class="hkbExpressionDataArray" signature="0x4b9ee1a2">
+			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
+			<!-- referenceCount SERIALIZE_IGNORED -->
+			<hkparam name="expressionsData" numelements="2">
+				<hkobject>
+					<hkparam name="expression">FocusXingIn if (bXingAnim == 1)</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ON_FALSE_TO_TRUE</hkparam>
+					<!-- raisedEvent SERIALIZE_IGNORED -->
+					<!-- wasTrueInPreviousFrame SERIALIZE_IGNORED -->
+				</hkobject>
+				<hkobject>
+					<hkparam name="expression">FocusXingOut if (bXingAnim == 0)</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ON_FALSE_TO_TRUE</hkparam>
+					<!-- raisedEvent SERIALIZE_IGNORED -->
+					<!-- wasTrueInPreviousFrame SERIALIZE_IGNORED -->
+				</hkobject>
+			</hkparam>
+		</hkobject>
+		
+		<hkobject name="#7981" class="hkbEventDrivenModifier" signature="0x7ed3f44e">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
 			<hkparam name="variableBindingSet">null</hkparam>
 			<!-- cachedBindables SERIALIZE_IGNORED -->
 			<!-- areBindablesCached SERIALIZE_IGNORED -->
 			<hkparam name="userData">1</hkparam>
-			<hkparam name="name">Xing_IframeEDM1</hkparam>
+			<hkparam name="name">FocusXingAnim_EDM</hkparam>
 			<!-- id SERIALIZE_IGNORED -->
 			<!-- cloneState SERIALIZE_IGNORED -->
 			<!-- padNode SERIALIZE_IGNORED -->
 			<hkparam name="enable">true</hkparam>
 			<!-- padModifier SERIALIZE_IGNORED -->
-			<hkparam name="modifier">#8010</hkparam>
-			<hkparam name="activateEventId">1218</hkparam>
-			<hkparam name="deactivateEventId">1219</hkparam>
+			<hkparam name="modifier">#7919</hkparam>
+			<hkparam name="activateEventId">1217</hkparam>
+			<hkparam name="deactivateEventId">1218</hkparam>
 			<hkparam name="activeByDefault">false</hkparam>
 			<!-- isActive SERIALIZE_IGNORED -->
 		</hkobject>
 		
-		<hkobject name="#8010" class="hkbEvaluateExpressionModifier" signature="0xf900f6be">
-			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
-			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="variableBindingSet">null</hkparam>
-			<!-- cachedBindables SERIALIZE_IGNORED -->
-			<!-- areBindablesCached SERIALIZE_IGNORED -->
-			<hkparam name="userData">2</hkparam>
-			<hkparam name="name">Xing_IframeEEM1</hkparam>
-			<!-- id SERIALIZE_IGNORED -->
-			<!-- cloneState SERIALIZE_IGNORED -->
-			<!-- padNode SERIALIZE_IGNORED -->
-			<hkparam name="enable">true</hkparam>
-			<!-- padModifier SERIALIZE_IGNORED -->
-			<hkparam name="expressions">#8011</hkparam>
-			<!-- compiledExpressionSet SERIALIZE_IGNORED -->
-			<!-- internalExpressionsData SERIALIZE_IGNORED -->
-		</hkobject>
-		
-		<hkobject name="#8011" class="hkbExpressionDataArray" signature="0x4b9ee1a2">
-			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
-			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="expressionsData" numelements="1">
-				<hkobject>
-					<hkparam name="expression">bInIframe = 1</hkparam>
-					<hkparam name="assignmentVariableIndex">-1</hkparam>
-					<hkparam name="assignmentEventIndex">-1</hkparam>
-					<hkparam name="eventMode">EVENT_MODE_SEND_ONCE</hkparam>
-					<!-- raisedEvent SERIALIZE_IGNORED -->
-					<!-- wasTrueInPreviousFrame SERIALIZE_IGNORED -->
-				</hkobject>
-			</hkparam>
-		</hkobject>
-		
-		<hkobject name="#8002" class="hkbEventDrivenModifier" signature="0x7ed3f44e">
+		<hkobject name="#7919" class="hkbModifierList" signature="0xa4180ca1">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
 			<hkparam name="variableBindingSet">null</hkparam>
 			<!-- cachedBindables SERIALIZE_IGNORED -->
 			<!-- areBindablesCached SERIALIZE_IGNORED -->
 			<hkparam name="userData">1</hkparam>
-			<hkparam name="name">Xing_IframeEDM0</hkparam>
+			<hkparam name="name">FocusXingAnim_ML</hkparam>
 			<!-- id SERIALIZE_IGNORED -->
 			<!-- cloneState SERIALIZE_IGNORED -->
 			<!-- padNode SERIALIZE_IGNORED -->
 			<hkparam name="enable">true</hkparam>
 			<!-- padModifier SERIALIZE_IGNORED -->
-			<hkparam name="modifier">#8020</hkparam>
-			<hkparam name="activateEventId">1219</hkparam>
-			<hkparam name="deactivateEventId">1218</hkparam>
-			<hkparam name="activeByDefault">true</hkparam>
-			<!-- isActive SERIALIZE_IGNORED -->
+			<hkparam name="modifiers" numelements="2">
+				#0129 #7982
+			</hkparam>
 		</hkobject>
-
-		<hkobject name="#8020" class="hkbEvaluateExpressionModifier" signature="0xf900f6be">
+		
+		<hkobject name="#7982" class="hkbEvaluateExpressionModifier" signature="0xf900f6be">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
 			<hkparam name="variableBindingSet">null</hkparam>
 			<!-- cachedBindables SERIALIZE_IGNORED -->
 			<!-- areBindablesCached SERIALIZE_IGNORED -->
 			<hkparam name="userData">2</hkparam>
-			<hkparam name="name">Xing_IframeEEM0</hkparam>
+			<hkparam name="name">FocusXingAnim_EEM</hkparam>
 			<!-- id SERIALIZE_IGNORED -->
 			<!-- cloneState SERIALIZE_IGNORED -->
 			<!-- padNode SERIALIZE_IGNORED -->
 			<hkparam name="enable">true</hkparam>
 			<!-- padModifier SERIALIZE_IGNORED -->
-			<hkparam name="expressions">#8021</hkparam>
+			<hkparam name="expressions">#7983</hkparam>
 			<!-- compiledExpressionSet SERIALIZE_IGNORED -->
 			<!-- internalExpressionsData SERIALIZE_IGNORED -->
 		</hkobject>
-
-		<hkobject name="#8021" class="hkbExpressionDataArray" signature="0x4b9ee1a2">
+		
+		<hkobject name="#7983" class="hkbExpressionDataArray" signature="0x4b9ee1a2">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
 			<!-- referenceCount SERIALIZE_IGNORED -->
-			<hkparam name="expressionsData" numelements="1">
+			<hkparam name="expressionsData" numelements="3">
 				<hkobject>
-					<hkparam name="expression">bInIframe = 0</hkparam>
+					<hkparam name="expression">moveStop if(1)</hkparam>
 					<hkparam name="assignmentVariableIndex">-1</hkparam>
 					<hkparam name="assignmentEventIndex">-1</hkparam>
 					<hkparam name="eventMode">EVENT_MODE_SEND_ONCE</hkparam>
 					<!-- raisedEvent SERIALIZE_IGNORED -->
 					<!-- wasTrueInPreviousFrame SERIALIZE_IGNORED -->
 				</hkobject>
+				<hkobject>
+					<hkparam name="expression">tdmHeadtrackingBoth = 0</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ON_FALSE_TO_TRUE</hkparam>
+					<!-- raisedEvent SERIALIZE_IGNORED -->
+					<!-- wasTrueInPreviousFrame SERIALIZE_IGNORED -->
+				</hkobject>
+				<hkobject>
+					<hkparam name="expression">HeadTrackingOff if(1)</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ON_FALSE_TO_TRUE</hkparam>
+					<!-- raisedEvent SERIALIZE_IGNORED -->
+					<!-- wasTrueInPreviousFrame SERIALIZE_IGNORED -->
+				</hkobject>
 			</hkparam>
 		</hkobject>
-		
 		
 		<hkobject name="#2518" class="hkbModifierGenerator" signature="0x1f81fae6">
 			<!-- memSizeAndFlags SERIALIZE_IGNORED -->
